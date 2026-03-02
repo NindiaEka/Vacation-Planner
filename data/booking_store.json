@@ -1,0 +1,58 @@
+{
+  "b8c89e57-b36a-4ee8-bc9b-89008e184fc2": {
+    "booking_status": "Success",
+    "transaction_id": "b8c89e57-b36a-4ee8-bc9b-89008e184fc2",
+    "option_id": "option-2",
+    "selected_tier": {
+      "id": "option-2",
+      "label": "Standard"
+    },
+    "created_at": "2026-03-02T03:17:59.875317+00:00"
+  },
+  "a308ded9-f82b-4303-b029-2398b2fab607": {
+    "booking_status": "Success",
+    "transaction_id": "a308ded9-f82b-4303-b029-2398b2fab607",
+    "option_id": "option-2",
+    "selected_tier": {
+      "id": "option-2",
+      "label": "Standard",
+      "tier": "standard",
+      "start_date": "2026-03-11",
+      "end_date": "2026-03-15",
+      "nights": 5,
+      "flight": "Flight to Lombok for on 2026-03-11 - Economy - Round Trip",
+      "flight_class": "Economy",
+      "flight_price": 4805769,
+      "hotel": "4-Star Hotel in Lombok for (5 nights) - standard",
+      "hotel_price": 4119231,
+      "total_price": 8925000,
+      "justification": "{'reason': 'The standard tier from 2026-03-11 to 2026-03-15 offers a balance between comfort and price. Prices for flights and accommodations are moderate, making it suitable for travelers who want a comfortable experience without breaking the bank. This 5-day trip to Lombok can be booked for a total of 8925000 IDR (~ 600 USD) per person.', 'tier_price': 8925000}",
+      "flight_discount_applied": false,
+      "days_until_departure": 9
+    },
+    "created_at": "2026-03-02T03:18:53.927524+00:00"
+  },
+  "a267d467-bd65-44c1-9942-9a80551f757c": {
+    "booking_status": "Success",
+    "transaction_id": "a267d467-bd65-44c1-9942-9a80551f757c",
+    "option_id": "option-2",
+    "selected_tier": {
+      "id": "option-2",
+      "label": "Standard",
+      "tier": "standard",
+      "start_date": "2026-03-11",
+      "end_date": "2026-03-15",
+      "nights": 5,
+      "flight": "Flight to Lombok for on 2026-03-11 - Economy - Round Trip",
+      "flight_class": "Economy",
+      "flight_price": 4805769,
+      "hotel": "4-Star Hotel in Lombok for (5 nights) - standard",
+      "hotel_price": 4119231,
+      "total_price": 8925000,
+      "justification": "{'reason': 'A 5-day trip from 2026-03-11 to 2026-03-15, priced at 8925000, strikes a balance between comfort and price, offering a suitable option for those seeking a moderate level of luxury without breaking the bank.', 'price': 8925000}",
+      "flight_discount_applied": false,
+      "days_until_departure": 9
+    },
+    "created_at": "2026-03-02T03:51:50.997301+00:00"
+  }
+}

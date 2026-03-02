@@ -1,0 +1,16 @@
+[project]
+name = "vacation-planner"
+version = "0.1.0"
+description = "Autonomous Vacation Planner PoC using LangChain, Groq, Streamlit"
+authors = ["AssistX Team"]
+requires-python = ">=3.10,<4.0"
+dependencies = [
+	"langchain",
+	"langchain-groq",
+	"streamlit",
+	"python-dotenv",
+	"fastapi",
+	"uvicorn",
+	"requests",
+	"charset-normalizer"
+]
