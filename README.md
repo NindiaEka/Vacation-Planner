@@ -30,7 +30,7 @@ Optional (without uv):
 pip install -r requirements.txt
 ```
 
-### 4) Configure API key
+### 3) Configure API key
 
 Create a `.env` file in the project root:
 
@@ -104,4 +104,5 @@ See the dedicated document at `docs/Vulnerabilities_and_Risks.md`.
 - Travel data is currently simulated/mock.
 - Booking is simulated via `src/tools/booking_tool.py`.
 - Booking status is persisted to file-based storage at `data/booking_store.json` (baseline persistence, not yet a database).
+
 - Frontend performs an automatic booking-status fetch immediately after a successful `Confirm & Book`.
