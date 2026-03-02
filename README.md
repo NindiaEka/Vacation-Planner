@@ -15,8 +15,7 @@ The system uses a **Decoupled Architecture**:
 ### 1) Clone the repository
 
 ```bash
-git clone <your-repository-link>
-cd assistx-planner
+git clone https://github.com/NindiaEka/Vacation-Planner.git
 ```
 
 ### 2) Install dependencies (uv-only)
