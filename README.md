@@ -51,7 +51,7 @@ uv run python -m uvicorn app_backend:app --host 0.0.0.0 --port 8000 --reload
 Alternative (Windows PowerShell with existing `.venv`):
 
 ```powershell
-E:/Data/AssistX/vacation-planner/.venv/Scripts/python.exe -m uvicorn app_backend:app --host 127.0.0.1 --port 8000 --reload
+.\.venv\Scripts\python.exe -m uvicorn app_backend:app --host 127.0.0.1 --port 8000 --reload
 ```
 
 ### Terminal 2: Frontend UI
@@ -63,7 +63,7 @@ uv run streamlit run app_frontend.py
 Alternative (Windows PowerShell with existing `.venv`):
 
 ```powershell
-E:/Data/AssistX/vacation-planner/.venv/Scripts/python.exe -m streamlit run app_frontend.py --server.address 127.0.0.1 --server.port 8501
+.\.venv\Scripts\python.exe -m streamlit run app_frontend.py --server.address 127.0.0.1 --server.port 8501
 ```
 
 ## Backend Endpoints
